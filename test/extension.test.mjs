@@ -83,3 +83,4 @@ test("HyperspaceTelemetrySynchronizer builds Foxglove SceneUpdate with trajector
   assert.equal(registeredPanel, "HyperspaceDB 3D Manifold & KAG Topology");
   assert.equal(registeredConverter, true);
 });
+

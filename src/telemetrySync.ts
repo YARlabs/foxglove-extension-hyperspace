@@ -155,3 +155,4 @@ export class HyperspaceTelemetrySynchronizer {
     return { nodes, edges, sceneUpdate };
   }
 }
+

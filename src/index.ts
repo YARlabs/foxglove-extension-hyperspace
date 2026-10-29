@@ -53,3 +53,4 @@ export function activate(extensionContext: FoxgloveExtensionContext): void {
     });
   }
 }
+
