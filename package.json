@@ -1,0 +1,40 @@
+{
+  "name": "foxglove-extension-hyperspace",
+  "displayName": "HyperspaceDB 3D Manifold & KAG Robotics Visualizer",
+  "version": "4.2.0",
+  "description": "Official Foxglove Studio Extension for HyperspaceDB: 3D Poincaré Ball & Lorentz Light-Cone trajectory visualization, SLAM/LiDAR KAG topology rendering, and real-time geodesic anomaly detection.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test test/extension.test.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "hyperspacedb",
+    "foxglove",
+    "robotics",
+    "ros2",
+    "poincare-ball",
+    "lorentz-manifold",
+    "slam",
+    "kag"
+  ],
+  "author": "YARlabs <hi@yar.ink>",
+  "license": "MIT",
+  "homepage": "https://yar.ink",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YARlabs/foxglove-extension-hyperspace.git"
+  },
+  "dependencies": {
+    "hyperspace-sdk-ts": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.5.4"
+  }
+}
